@@ -1,0 +1,23 @@
+cd C:\xampp\mysql\Otros
+
+mysql -u root < employees.sql
+
+mysql.exe -u root
+
+use employees;
+
+TRUNCATE TABLE DEPT_EMP;
+
+DROP EMPLOYEES;
+
+SELECT * FROM EMPLOYEES;
+
+SELECT * FROM DEPARTMENTS;
+
+SELECT * FROM DEPT_MANAGER;
+
+SELECT * FROM DEPT_EMP;
+
+SELECT * FROM TITLES;
+
+SELECT * FROM SALARIES;
